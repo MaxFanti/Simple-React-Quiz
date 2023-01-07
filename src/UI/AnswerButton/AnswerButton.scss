@@ -1,0 +1,29 @@
+.answer {
+	cursor: pointer;
+	width: 600px;
+	height: 70px;
+	margin: 35px auto;
+	background: #ffffff;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	font-size: 36px;
+	color: #595959;
+	p {
+		font-size: 24px;
+		padding: 10px;
+	}
+	.circle {
+		flex-shrink: 0;
+		margin: 5px;
+		height: 60px;
+		width: 60px;
+		background: #6c54ff;
+		border-radius: 50%;
+		font-size: 36px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #ffffff;
+	}
+}

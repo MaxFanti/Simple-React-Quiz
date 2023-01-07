@@ -1,0 +1,68 @@
+.body {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+
+	width: 800px;
+	background: #6c54ff;
+	box-shadow: 7px 6px 13px 1px rgba(0, 0, 0, 0.4);
+	border-radius: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	.result {
+		width: 600px;
+		height: 600px;
+		margin-left: auto;
+		margin-right: auto;
+		background: #ffffff;
+		border-radius: 50px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		img {
+			margin-top: 25px;
+			width: 150px;
+			height: 150px;
+		}
+		p {
+			font-size: 36px;
+			color: #595959;
+			margin: 0px 10px;
+		}
+		h1 {
+			font-size: 64px;
+			font-weight: 400;
+			margin: 0px 5px;
+			color: #04ca00;
+		}
+		span {
+			margin-top: 10px;
+			font-size: 32px;
+			color: #595959;
+		}
+	}
+	.header {
+		border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+		margin-top: 25px;
+		.progressBar {
+			width: 500px;
+			height: 6px;
+			background: rgba(255, 255, 255, 0.2);
+			border-radius: 25px;
+			margin: 0 auto;
+			.progressPass {
+				height: 100%;
+				background: linear-gradient(90deg, #05ff00 0%, #8fff00 100%);
+				transition: width 0.5s ease-in-out;
+			}
+		}
+		.question {
+			font-size: 36px;
+			text-align: center;
+			color: #ffffff;
+		}
+	}
+}
